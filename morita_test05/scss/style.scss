@@ -81,8 +81,12 @@ background-color: #ddd;
 h2{
 margin-bottom: 10px;
 text-align: center;
-
+&::before{
+content: attr(data-num);
+margin-right: .8em;
 }
+}
+
 .pc{
 width: 336px;
 height: 280px;
