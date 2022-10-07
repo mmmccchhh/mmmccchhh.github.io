@@ -1,0 +1,87 @@
+@use "_reset";
+
+//色の登録
+.color-01{
+background-color: #f7931e;
+}
+.color-02{
+background-color: #f75b1e;
+}
+.color-03{
+background-color: #f7331e;
+}
+.color-04{
+background-color: #6405b5;
+}
+.color-05{
+background-color: #abe7fc;
+}
+.color-06{
+background-color: #c9e56f;
+}
+
+
+
+
+h1{
+text-align: center;
+}
+.banner-wrapper{
+max-width: 1000px;
+margin: 0 auto 100px;
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+
+.banner-box{
+width: calc((100% - 40px) / 2);
+box-shadow: 0 0 6px #888;
+padding: 20px;
+h2{
+margin-bottom: 10px;
+text-align: center;
+
+}
+.pc{
+width: 336px;
+height: 280px;
+margin: 0 auto;
+}
+.sp{
+width: 320px;
+height: 280px;
+margin: 0 auto;
+}
+}
+
+
+.banner-info{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin: 20px auto;
+
+dt{
+width: 40%;
+margin-bottom: 10px;
+padding-left: 40px;
+}
+dd{
+width: 60%;
+margin-bottom: 10px;
+
+span{
+display: inline-block;
+width: 14px;
+height: 14px;
+margin: 0 .2em 0 0;
+// &:first-of-type{
+// margin-left: 0;
+// }
+}
+}
+}
+
+
+
+}
