@@ -16,9 +16,9 @@ background-color: #ffffff88;
 position: fixed;
 }
 h1{
-	width: fit-content;
+	/* width: fit-content; */
 	padding: 10px 10px 0 20px ;
-	background-color: #93ebfe;
+	/* background-color: #93ebfe; */
 }
 .tag-line{
 	font-weight: bold;
