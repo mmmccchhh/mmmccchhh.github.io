@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yoga studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortsut icon" href="favicon.png">
+</head>
+<body id="top">
+<header id="pc-header">
+<a href="#top"><h1>Yoga studio</h1></a>
+<nav id="g-nav">
+	<a href="#top">Top</a>
+	<a href="#concept">Concept</a>
+	<a href="#classes">Classes</a>
+	<a href="#studio">Studio</a>
+	<a href="#teacher">Teacher</a>
+<div class="animation start-home"></div>
+</nav>
+</header>
+
+<div class="container">
+<header id="sp-header">
+<!-- hamburger menu -->
+<input type="checkbox" id="check">
+<label for="check">
+<p id="btn"><span></span></p>
+</label>
+<nav id="sp-nav">
+<ul>
+	<li><a href="#top">Top</a></li>
+	<li><a href="#concept">Concept</a></li>
+	<li><a href="#classes">Classes</a></li>
+	<li><a href="#studio">Studio</a></li>
+	<li><a href="#teacher">Teacher</a></li>
+</ul>
+</nav>
+</header>
+
+
+<main>
+<h1>Yoga studio</h1>
+<div class="concept" id="concept">
+<h2>Concept</h2>
+<p>Our focus has been to inspire students in a lifelong practice<br>
+that is sustainable and enjoyable of  yoga experiences.</p>
+</div><!-- /.concept -->
+
+<div class="classes" id="classes">
+<h2>Classes</h2>
+<div class="class-box">
+<p class="photo"><img src="img/begginer.jpg" alt=""></p>
+<h3>Beginner</h3>
+<p class="text">◆<br>Just started leaning yoga.<br>Stretching, relaxed and Meditating for releasing stress.</p>
+<p class="price">$80  4 times / per month</p>
+<button class="trial"><a href="#">free trial lesson</a></button>
+</div>
+<div class="class-box">
+	<p class="photo"><img src="img/intermediate.jpg" alt=""></p>
+	<h3>Intermediate</h3>
+<p class="text">◆<br>You can do some yoga poses smoothly.<br>Also getting be able to feel your body changes.</p>
+<p class="price">$100  4 times / per month</p>
+<button class="trial"><a href="#">free trial lesson</a></button>
+</div>
+<div class="class-box">
+	<p class="photo"><img src="img/advanced.jpg" alt=""></p>
+	<h3>Advanced</h3>
+	<p class="text">◆<br>You can do most yoga poses smoothly <br>
+and aspire to become a teacher.</p>
+<p class="price">$120  4 times / per month</p>
+<p class="price">$200  8 times / per month</p>
+<button class="trial"><a href="#" target="_blank">Free trial lesson</a></button>
+
+</div><!-- /.class-box -->
+
+</div><!-- /.classes -->
+<div class="studio" id="studio">
+<h2>Studio</h2>
+<p class="photo"><img src="img/studio.jpg" alt="スタジオ"></p>
+<p class="info">Open: 10:00am ~ 22:00pm</p>
+<p class="info">Address: 707 Sunnyhill Ave. Brooklyn, NY</p>
+</div><!-- /.studio -->
+
+
+<div class="teacher" id="teacher">
+<h2>Teacher</h2>
+<p class="photo"><img src="img/introduce.jpg" alt=""></p>
+<h3>Lisa</h3>
+<p class="introduce">
+I am a yoga teacher since graduated from university,<br>
+have each diploma in India, Thai, and Japan.<br>
+I have tought over 1,000 students in the world.<br>
+In my lesson not only teaching yoga poses exactly<br>
+so making arrange details according your body condition.<br>
+I promise yoga makes your life better.</p>
+<p class="letter">
+I'd love to meet you<br>
+and enjoy yoga together!<br>
+From Lisa<span class="rotate">=)</span><br>
+<!-- <span class="ja">一緒にヨガを楽しみましょう♡</span> -->
+</p>
+</div><!-- /.teacher -->
+
+
+</main>
+
+<p class="to-top-btn" id="to-top"><a href="#top"><img src="img/arrow.svg" alt="arrow"></a></p>
+<footer>
+
+</footer>
+</div><!-- /.container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(function(){
+$('#sp-nav a').on('click',function(){
+$('#check').removeAttr('checked').prop('checked',false).change();
+});
+});
+</script>
+</body>
+</html>
