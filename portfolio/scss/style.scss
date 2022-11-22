@@ -724,20 +724,7 @@ background: linear-gradient(90deg, #b8751e 0%, #ffce08 37%, #fefeb2 50%, #e1ce08
 -webkit-background-clip: text;
 color: transparent;
 filter: drop-shadow(1px 0px 0px #555);
-// a::after {
-// position: absolute;
-// content: '';
-// bottom: 0;
-// left: 0;
-// width: 0;
-// height: 2px;
-// transition: all 0.3s ease;
-// background: linear-gradient(90deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);
-// filter: drop-shadow(1px 1px 0 #555);
-// }
-// a:hover::after{
-// width: 100%;
-// }
+}
 }
 .site-description{
 margin-bottom: 2em;
@@ -812,6 +799,11 @@ display: block;
 width: 100%;
 margin-bottom: 50px;
 }
+@include sp{
+display:block;
+width: 100%;
+margin-bottom: 50px;
+} 
 }
 .tool-list{
 padding: 0 10%;
