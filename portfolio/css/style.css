@@ -588,7 +588,7 @@ header h1 > span:nth-of-type(9) {
 @media (max-width: 480px) {
   .introduce-wrapper h2 {
     padding: 30px 0;
-    font-size: 54px;
+    font-size: 50px;
   }
 }
 .introduce-wrapper .introduce {
@@ -853,7 +853,6 @@ header h1 > span:nth-of-type(9) {
 }
 .skill-wrapper .skills .skill-box .box {
   width: 50%;
-  aspect-ratio: 1/1;
 }
 .skill-wrapper .skills .skill-box .box:first-of-type, .skill-wrapper .skills .skill-box .box:last-of-type {
   border: 10px solid #fbe5ee;
@@ -946,7 +945,7 @@ header h1 > span:nth-of-type(9) {
 @media (max-width: 800px) {
   .skill-wrapper .skills .skill-box .box {
     width: 100%;
-    aspect-ratio: 0;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 800px) {
