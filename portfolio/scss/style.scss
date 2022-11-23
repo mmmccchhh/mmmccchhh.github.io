@@ -338,6 +338,9 @@ margin: 0;
 @include tab{
 margin: 0 ;
 }
+@include sp{
+margin-bottom: 100px;
+}
 }
 
 //timeline

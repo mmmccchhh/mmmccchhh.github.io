@@ -657,6 +657,11 @@ header h1 > span:nth-of-type(9) {
     margin: 0;
   }
 }
+@media (max-width: 480px) {
+  .introduce-wrapper {
+    margin-bottom: 100px;
+  }
+}
 
 #timeline {
   width: 100%;
