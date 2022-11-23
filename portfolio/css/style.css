@@ -317,7 +317,7 @@ header .g-nav {
   width: 50%;
   height: 100vh;
   padding: 50px 0 0 80px;
-  background: url(../img/main.JPG) no-repeat center center/cover;
+  background: url(../img/main.JPG) no-repeat center bottom/cover;
   position: sticky;
   top: 0;
   left: 0;
@@ -366,6 +366,17 @@ header .g-nav ul.menu li:last-of-type a {
 @media (max-width: 480px) {
   header .g-nav ul.menu li:last-of-type a {
     font-size: 18px;
+  }
+}
+header .g-nav p {
+  color: #fbe5ee;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+@media (max-width: 480px) {
+  header .g-nav p {
+    display: none;
   }
 }
 @media (max-width: 800px) {
